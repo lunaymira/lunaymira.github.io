@@ -6,228 +6,379 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/select.css">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="css/jquery.fancybox.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+	<div class="wrapper">
+		<header class="header">
 
-	<header class="header">
-		<div class="container">
 			<div class="header__inner">
-				<a class="logo" href="#">
-					<img class="logo__img" src="images/logo.png" alt="logo">
-				</a>
-				<nav class="menu">
-					<ul class="menu__list">
-						<li class="menu__list-item">
-							<a class="menu__list-link" href="#">Product</a>
-						</li>
-						<li class="menu__list-item">
-							<a class="menu__list-link" href="#">Customers</a>
-						</li>
-						<li class="menu__list-item">
-							<a class="menu__list-link" href="#">Pricing</a>
-						</li>
-						<li class="menu__list-item">
-							<a class="menu__list-link" href="#">Resources</a>
-						</li>
-					</ul>
-				</nav>
 
-				<div class="user-nav">
-					<a class="user-nav__link" href="#">Sign In</a>
-					<a class="user-nav__link" href="#">Sign Up</a>
+				<div class="header__inner-container">
+					<div class="logo">
+						<a href="#" class="logo__link"> PROPHOTO SERVICES</a>
+					</div>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="#totop">Главная</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="#service">Услуги</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="#about-us">О нас</a>
+							</li>
+							<li class="menu__list-item">
+								<a class="menu__list-link" href="#contact">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+			<div id="totop" class="container">
+				<div class="header__image">
+
+					<div class="header__image-item">
+						<img class="header__img-tablet" src="images/tablet.png" alt="tablet">
+					</div>
+
+
+					<div class="header__image-item">
+						<div class="header__image-item-img">
+							<img class="header__img-services" src="images/logo.png" alt="logo">
+						</div>
+
+						<div class="header__image-item-text">
+							<div class="header__image-text">
+								<ul>
+									<li>Обработка фото</li>
+									<li>Пластика на фото</li>
+									<li>Фотомонтаж</li>
+								</ul>
+							</div>
+							<div class="header__image-text">
+								<ul>
+									<li>Профессиональная ретушь</li>
+									<li>Любые изменения на фото</li>
+									<li>Работа с векторной графикой</li>
+								</ul>
+							</div>
+
+						</div>
+
+
+						<div class="header__image-item-line"></div>
+
+
+					</div>
+					<div class="header__image-item">
+						<img class="header__img woman" src="images/woman-painter.png" alt="woman">
+					</div>
+
+				</div>
+				<div class="header-photo">
+					<img class="header-photo" src="images/header-photo.png" alt="photos">
 				</div>
 			</div>
-		</div>
-	</header>
 
-	<section class="top">
-		<div class="container">
-			<div class="top__inner">
-				<h1 class="top__title title">
-					The Design Thinking superpowers
-				</h1>
-				<p class="top__text">
-					Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your
-					next user experience.
-				</p>
-				<button class="top__btn">Get started</button>
-				<a class="top__link" href="#">Watch the Video</a>
+		</header>
+
+
+		<div class="content">
+			<div id="service" class="services">
+				<div class="container">
+					<h3 class="services__title title">Наши услуги</h3>
+					<div class="services__line line"></div>
+
+					<div class="services__row">
+
+						<div class="services__row-item-1 services__item-container">
+							<div class="services__row-item">
+								<h5 class="services__row-title">
+									ЗАМЕНА ФОНА
+								</h5>
+								<img class="services__row-img" src="images/services/zamena-fona.png" alt="замена фона">
+								<div class="services__row-text">
+									<div class="services__row-price">
+										<p>СТОИМОСТЬ ОТ:</p>
+										<p> <span class="services__row-number">250</span> ₽</p>
+									</div>
+									<div class="services__row-term">
+										<p>СРОК ОТ:</p>
+										<p> <span class="services__row-number">20</span> мин.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+						<div class="services__row-item-2 services__item-container">
+							<div class="services__row-item">
+								<h5 class="services__row-title">
+									УДАЛЕНИЕ ОБЪЕКТА
+								</h5>
+								<img class="services__row-img" src="images/services/udalenie-objecta.png"
+									alt="удаление объекта">
+								<div class="services__row-text">
+									<div class="services__row-price">
+										<p>СТОИМОСТЬ ОТ:</p>
+										<p> <span class="services__row-number">150</span> ₽</p>
+									</div>
+									<div class="services__row-term">
+										<p>СРОК ОТ:</p>
+										<p> <span class="services__row-number">10</span> мин.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+						<div class="services__row-item-3 services__item-container">
+							<div class="services__row-item">
+								<h5 class="services__row-title">
+									РЕСТАВРАЦИЯ
+								</h5>
+								<img class="services__row-img" src="images/services/restavr.png" alt="реставрация">
+								<div class="services__row-text">
+									<div class="services__row-price">
+										<p>СТОИМОСТЬ ОТ:</p>
+										<p> <span class="services__row-number">350</span> ₽</p>
+									</div>
+									<div class="services__row-term">
+										<p>СРОК ОТ:</p>
+										<p> <span class="services__row-number">1</span> час</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="services__row">
+						<div class="services__row-item-4 services__item-container">
+							<div class="services__row-item">
+								<h5 class="services__row-title">
+									РЕТУШЬ
+								</h5>
+								<img class="services__row-img" src="images/services/retouch.png" alt="ретушь">
+								<div class="services__row-text">
+									<div class="services__row-price">
+										<p>СТОИМОСТЬ ОТ:</p>
+										<p> <span class="services__row-number">100</span> ₽</p>
+									</div>
+									<div class="services__row-term">
+										<p>СРОК ОТ:</p>
+										<p> <span class="services__row-number">30</span> мин.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+						<div class="services__row-item-5 services__item-container">
+							<div class="services__row-item">
+								<h5 class="services__row-title">
+									DREAM ART
+								</h5>
+								<img class="services__row-img dream-art-img" src="images/services/dream-art.png"
+									alt="dream art">
+								<div class="services__row-text">
+									<div class="services__row-price">
+										<p>СТОИМОСТЬ ОТ:</p>
+										<p> <span class="services__row-number">700</span> ₽</p>
+									</div>
+									<div class="services__row-term">
+										<p>СРОК ОТ:</p>
+										<p> <span class="services__row-number">1</span> д.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+						<div class="services__row-item-6 services__item-container">
+							<div class="services__row-item">
+								<h5 class="services__row-title">
+									АРТ ЗАРИСОВКА
+								</h5>
+								<img class="services__row-img" src="images/services/art-sketch.png" alt="арт зарисовка">
+								<div class="services__row-text">
+									<div class="services__row-price">
+										<p>СТОИМОСТЬ ОТ:</p>
+										<p> <span class="services__row-number">1000</span> ₽</p>
+									</div>
+									<div class="services__row-term">
+										<p>СРОК ОТ:</p>
+										<p> <span class="services__row-number">1</span> д.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="services__row-last">
+
+						<div class="services__row-item-7 services__item-container-last">
+							<div class="services__row-item">
+								<h5 class="services__row-title">
+									ДИЗАЙНЕРСКИЕ УСЛУГИ
+								</h5>
+								<img class="services__row-img" src="images/services/design-services.png"
+									alt="дизайнерские услуги">
+								<div class="services__row-text services__text-last">
+									<div class="services__row-price">
+										<p>СТОИМОСТЬ ОТ:</p>
+										<p> <span class="services__row-number">300<span></span> ₽
+										</p>
+									</div>
+									<div class="services__row-term">
+										<p>СРОК ОТ:</p>
+										<p> <span class="services__row-number">2</span> д.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--container-->
+
 			</div>
+			<!--services-->
+
+
+			<div id="about-us" class="about">
+				<div class="container">
+					<h3 class="about__title title">НЕМНОГО О НАС</h3>
+					<div class="about__line line"></div>
+					<div class="about__text">
+						<p class="about__text-description">
+							Графический дизайн - это про все визуальные образы, которые встречаются в повседневной жизни:
+							рекламные
+							баннеры и афиши, афиши мероприятий, логотипы, визитки,журналы и прочее.
+						</p>
+						<p class="about__text-list">Любые виды ретуши;
+							Цветокоррекция и усиление резкости снимка; <br>
+							Изменение цвета глаз, волос, коррекция или нанесение макияжа на фото; <br>
+							Удаление дефектов кожи, омоложение, отбеливание зубов; <br>
+							Замена фона, добавление предметов и их стирание; <br>
+							Свадебная ретушь; <br>
+							Профессиональный фотомонтаж и стилизация фотографий; <br>
+							Реставрация старых фотографий и раскрашивание черно-белых; <br>
+							Реставрация фотографий для памятников; <br>
+							Создание фотоколлажей из фотографий; <br>
+							Отрисовка фото с нуля; <br>
+							Предметная обтравка и рекламная ретушь; <br>
+							Ретушь ювелирных изделий; <br>
+							Дизайн
+							мы любим то, что мы делаем и делаем все с любовью!</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="contact" class="contacts">
+				<div class="container">
+
+					<div class="contacts-body">
+						<div class="contacts-body__item">
+							<div class="contacts-column">
+								<div class="contacts-column__item">
+									<a href="mailto:pshop@internet.ru">pshop@internet.ru</a>
+								</div>
+								<div class="contacts-column__item">
+									<a href="tel:+79991246655">+7(999)124-66-55</a>
+								</div>
+								<div class="contacts-column__item">
+									<a href="https://telegram.me/sanchessssssssssss">Написать автору</a>
+								</div>
+
+								<div class="contacts-column__item">
+									<a href="viber://chat?number=%2B79991246655">Ссылка на чат Viber</a>
+								</div>
+
+								<div class="contacts-column__item">
+									<a href="https://wa.me/79991246655">Чат с пользователем WhatsApp</a>
+								</div>
+
+
+							</div>
+						</div>
+						<div class="contacts-body__item">
+							<div class="form">
+								<form action="#" id="form" class="form__body">
+									<div class="form__item">
+
+										<input id="formName" placeholder="Ваше имя" type="text" name="name"
+											class="form__input _req">
+									</div>
+									<div class="form__item">
+
+										<input id="formEmail" placeholder="E-mail" type="text" name="email"
+											class="form__input _req _email">
+									</div>
+									<div class="form__item">
+
+										<textarea placeholder="Ваше сообщение" name="message" id="formMessage"
+											class="form__input"></textarea>
+									</div>
+
+									<div class="form__item">
+										<div class="form__label">Прикрепить фото</div>
+										<div class="file">
+											<div class="file__item">
+												<input id="formImage" accept=".jpg, .png, .gif" type="file" name="image"
+													class="file__input">
+												<div class="file__button">Выбрать</div>
+											</div>
+											<div id="formPreview" class="file__preview"></div>
+										</div>
+									</div>
+									<div class="form__item">
+										<div class="checkbox">
+											<input id="formAgreement" checked type="checkbox" name="agreement"
+												class="checkbox__input _req">
+											<label for="formAgreement" class="checkbox__label"><span>Я даю свое согласие на
+													обработку
+													персональных данных в соответствии с <a href="">Условиями</a>*</span></label>
+										</div>
+									</div>
+									<button type="submit" class="form__button">Отправить</button>
+								</form>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
 		</div>
-	</section>
-
-	<section class="tools">
-
-		<h3 class="tools__title title">
-			We design tools to unveil your superpowers
-		</h3>
-
-		<div class="tools__inner">
+		<!--content-->
+		<footer>
 			<div class="container">
-				<div class="tools__items">
-					<div class="tools__item">
-						<img class="tools__item-img" src="images/tools-1.svg" alt="tools img">
-						<h5 class="tools__item-title title">
-							First click tests
-						</h5>
-						<p class="tools__item-text">
-							While most people enjoy casino gambling,
-						</p>
-					</div>
+				<div class="footer-body">
 
-					<div class="tools__item">
-						<img class="tools__item-img" src="images/tools-2.svg" alt="tools img">
-						<h5 class="tools__item-title title">
-							Design surveys
-						</h5>
-						<p class="tools__item-text">
-							Sports betting, lottery and bingo playing for the fun
-						</p>
-					</div>
-
-					<div class="tools__item">
-						<img class="tools__item-img" src="images/tools-3.svg" alt="tools img">
-						<h5 class="tools__item-title title">
-							Preference tests
-						</h5>
-						<p class="tools__item-text">
-							The Myspace page defines the individual.
-						</p>
-					</div>
-
-					<div class="tools__item">
-						<img class="tools__item-img" src="images/tools-4.svg" alt="tools img">
-						<h5 class="tools__item-title title">
-							Five second tests
-						</h5>
-						<p class="tools__item-text">
-							Personal choices and the overall personality of the person.
-						</p>
-					</div>
 				</div>
 			</div>
-
-			<a class="tools__link" href="#">SIGN UP NOW</a>
-		</div>
-	</section>
-
-
-	<section class="direction">
-		<div class="container">
-			<div class="direction__item">
-				<div class="direction__item-content">
-					<p class="direction__item-pretitle">
-						Effortless Validation for
-					</p>
-					<h3 class="direction__item-title title">
-						Design Professionals
-					</h3>
-					<p class="direction__item-text">
-						The Myspace page defines the individual, his or her characteristics, traits, personal choices and the
-						overall personality of the person.
-					</p>
-					<h6 class="direction__item-subtitle">
-						Accessory makers
-					</h6>
-					<p class="direction__item-text">
-						While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
-					</p>
-					<h6 class="direction__item-subtitle">
-						Alterationists
-					</h6>
-					<p class="direction__item-text">
-						If you are looking for a new way to promote your business that won’t cost you more money,
-					</p>
-					<h6 class="direction__item-subtitle">
-						Custom Design designers
-					</h6>
-					<p class="direction__item-text">
-						If you are looking for a new way to promote your business that won’t cost you more money,
-					</p>
-				</div>
-				<img src="images/direction-1.svg" alt="Design Professionals images" class="direction__item-img">
-			</div>
+		</footer>
+	</div>
+	<!--wrapper-->
 
 
 
-			<div class="direction__item">
-				<img src="images/direction-2.svg" alt="Product Managers images" class="direction__item-img">
-				<div class="direction__item-content">
-					<p class="direction__item-pretitle">
-						Easier decision making for
-					</p>
-					<h3 class="direction__item-title title">
-						Product Managers
-					</h3>
-					<p class="direction__item-text">
-						The Myspace page defines the individual, his or her characteristics, traits, personal choices and the
-						overall personality of the person.
-					</p>
-
-					<p class="direction__item-text">
-						Never worry about overpaying for your energy again.
-					</p>
-
-					<p class="direction__item-text">
-						We will only switch you to energy companies that we trust and will treat you right
-					</p>
-
-					<p class="direction__item-text">
-						We track the markets daily and know where the savings are.
-					</p>
-				</div>
-			</div>
 
 
-
-			<div class="direction__item">
-				<div class="direction__item-content">
-					<p class="direction__item-pretitle">
-						Optimisation for
-					</p>
-					<h3 class="direction__item-title title">
-						Marketers
-					</h3>
-					<p class="direction__item-text">
-						Few would argue that, despite the advancements of feminism over the past three decades, women still
-						face a double standard when it comes to their behavior.
-					</p>
-					<h6 class="direction__item-subtitle">
-						Accessory makers
-					</h6>
-					<p class="direction__item-text">
-						While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
-					</p>
-					<h6 class="direction__item-subtitle">
-						Alterationists
-					</h6>
-					<p class="direction__item-text">
-						If you are looking for a new way to promote your business that won’t cost you more money,
-					</p>
-					<h6 class="direction__item-subtitle">
-						Custom Design designers
-					</h6>
-					<p class="direction__item-text">
-						If you are looking for a new way to promote your business that won’t cost you more money,
-					</p>
-				</div>
-				<img src="images/direction-3.svg" alt="Marketers images" class="direction__item-img">
-			</div>
-		</div>
-	</section>
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/jquery.fancybox.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/select.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
