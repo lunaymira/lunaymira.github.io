@@ -674,7 +674,7 @@ textarea.form__input {
 		font-size: 14px;
 	}
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 423px) {
 	.header__image-item-text {
 		font-size: 12px;
 	}
